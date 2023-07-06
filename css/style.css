@@ -1,3 +1,42 @@
-h1 {
-  color: red;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  padding: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 120px;
+}
+.menus {
+  color: white;
+}
+
+.menus ul {
+  display: flex;
+  list-style: none;
+}
+
+.menus ul li {
+  margin-left: 20px;
+}
+
+.menus ul li:hover {
+  cursor: pointer;
+  color: #dbacac;
+}
+
+.menus ul li:first-child {
+  margin-left: 0;
 }
